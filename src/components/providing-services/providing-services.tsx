@@ -1,10 +1,12 @@
 import { Service } from "./service"
-import { FaRegCalendarAlt } from "react-icons/fa"
-import { FaPills } from "react-icons/fa"
-import { FaCalendarCheck } from "react-icons/fa"
+import {
+  FaCalendarCheck,
+  FaVideo,
+  FaPills,
+  FaRegCalendarAlt,
+} from "react-icons/fa"
 import { FaRegMessage } from "react-icons/fa6"
 import { GiProgression } from "react-icons/gi"
-import { FaVideo } from "react-icons/fa"
 
 export const Services = () => {
   const services = [
