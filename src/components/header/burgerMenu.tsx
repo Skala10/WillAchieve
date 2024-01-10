@@ -7,13 +7,14 @@ import { TbAlignRight, TbX } from "react-icons/tb"
 export const BurgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false)
 
-  const handleResize = () => {
-    if (window.innerWidth > 768 && isOpen) {
-      setIsOpen(false)
-    }
-  }
+
 
   useEffect(() => {
+	  const handleResize = () => {
+      if (window.innerWidth > 768 && isOpen) {
+        setIsOpen(false)
+      }
+    }
     window.addEventListener("resize", handleResize)
     return () => {
       window.removeEventListener("resize", handleResize)

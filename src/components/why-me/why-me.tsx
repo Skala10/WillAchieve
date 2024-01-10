@@ -25,7 +25,7 @@ export const WhyMe = () => {
             <span>
               Elevate your fitness journey with me as your Personal Trainer. As
               a Level 3 PT with 5 years of gym experience and a background in
-              international sports, I've conquered challenges like losing weight
+              international sports, I’ve conquered challenges like losing weight
               and gaining muscle.
             </span>
             <span>
@@ -38,7 +38,7 @@ export const WhyMe = () => {
             <span>
               Fuelling your success, my passion for cooking and nutritional
               knowledge will ensure you eat healthily, but more importantly, in
-              an enjoyable way! Join the ranks of those I've already guided to
+              an enjoyable way! Join the ranks of those I’ve already guided to
               achieving their fitness goals.
             </span>
           </p>

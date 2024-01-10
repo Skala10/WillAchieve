@@ -11,7 +11,7 @@ export const MyClients = () => {
           Strive to reach goals you can’t even imagine yet!
         </h4>
         <p className="mb-5 md:mb-10 max-w-[800px] mx-auto">
-          Empowering Transformations: Meet our amazing clients who've embraced
+          Empowering Transformations: Meet our amazing clients who’ve embraced
           fitness with WillAchieve! Their dedication is inspiring, showcasing
           the incredible results achievable through personalized coaching. Join
           our community and start your journey to a stronger, healthier you.
