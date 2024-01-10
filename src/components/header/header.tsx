@@ -5,7 +5,7 @@ import { BurgerMenu } from "./burgerMenu"
 export const Header = () => {
   const links = [
     { href: "#whywill", text: "Why Will?" },
-    { href: "#my-clients", text: "My clients" },
+    { href: "#services", text: "Services" },
     { href: "#calendar", text: "Book a free call", isButton: true },
   ]
 

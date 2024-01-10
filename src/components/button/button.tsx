@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 export const Button = ({
   children,
   href,
@@ -12,8 +10,8 @@ export const Button = ({
   const commonClasses =
     " font-bold lg:text-lg inline-block py-3 px-5 rounded-sm transition-all uppercase pointer"
   return (
-    <Link href={href} className={className + commonClasses}>
+    <a href={href} className={className + commonClasses}>
       {children}
-    </Link>
+    </a>
   )
 }

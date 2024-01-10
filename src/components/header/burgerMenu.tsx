@@ -7,10 +7,8 @@ import { TbAlignRight, TbX } from "react-icons/tb"
 export const BurgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false)
 
-
-
   useEffect(() => {
-	  const handleResize = () => {
+    const handleResize = () => {
       if (window.innerWidth > 768 && isOpen) {
         setIsOpen(false)
       }
@@ -30,10 +28,20 @@ export const BurgerMenu = () => {
   }
 
   const links = [
-    { href: "/", text: "Why Will?", addStyles: { fontSize: "24px" } },
-    { href: "/", text: "Transformations", addStyles: { fontSize: "24px" } },
+    { href: "#whywill", text: "Why Will?", addStyles: { fontSize: "24px" } },
     {
-      href: "/",
+      href: "#services",
+      text: "Services",
+      addStyles: { fontSize: "24px" },
+    },
+    {
+      href: "#joinMyTeam",
+      text: "Join My Team",
+      addStyles: { fontSize: "24px" },
+    },
+
+    {
+      href: "#calendar",
       text: "Book a free call",
       addStyles: {
         fontSize: "24px",

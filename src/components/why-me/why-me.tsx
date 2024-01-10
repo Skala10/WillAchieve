@@ -3,7 +3,9 @@ import whyme from "../../../public/whyme.jpg"
 
 export const WhyMe = () => {
   return (
-    <section id="whyme" className="max-w-[1440px] mx-auto px-5 py-8 md:py-16">
+    <section
+      id="whywill"
+      className="max-w-[1440px] mx-auto px-5 py-8 md:py-16">
       <div className="flex justify-center items-center  flex-col-reverse mdlg:flex-row mdlg:justify-around">
         <div className="relative inline-block max-w-[600px] h-[720px]">
           <Image

@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "../button/button"
 
 export const MainSection = () => {
@@ -10,8 +12,8 @@ export const MainSection = () => {
               Become the best version of you
             </h1>
             <p className="text-l md:text-xl mb-4">
-              If youre reading this page, theres a good chance that you want to
-              stop making excuses and are looking to build the body and
+              If you’re reading this page, there’s a good chance that you want
+              to stop making excuses and are looking to build the body and
               lifestyle you want.
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
@@ -21,7 +23,7 @@ export const MainSection = () => {
                 Book a free call
               </Button>
               <Button
-                href="#calendar"
+                href="#joinMyTeam"
                 className="hover:text-[#e7e7e7] border hover-border hidden md:block">
                 Learn more
               </Button>

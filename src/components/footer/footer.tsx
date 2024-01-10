@@ -1,3 +1,5 @@
+"use client"
+
 import { Logo } from "../header/logo"
 import { Navigation } from "../header/navigation"
 
@@ -14,8 +16,13 @@ export const Footer = () => {
       addStyles: { color: "black", fontWeight: 400 },
     },
     {
-      href: "#my-clients",
-      text: "My clients",
+      href: "#services",
+      text: "Services",
+      addStyles: { color: "black", fontWeight: 400 },
+    },
+    {
+      href: "#joinMyTeam",
+      text: "Join my team",
       addStyles: { color: "black", fontWeight: 400 },
     },
     {

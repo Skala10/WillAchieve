@@ -1,4 +1,4 @@
-import Link from "next/link"
+"use client"
 
 export const NavigationLink = ({
   href,
@@ -22,11 +22,11 @@ export const NavigationLink = ({
 
   return (
     <li>
-      <Link href={href} onClick={onClick}>
+      <a href={href} onClick={onClick}>
         <span className={`${linkClasses}`} style={addStyles}>
           {text}
         </span>
-      </Link>
+      </a>
     </li>
   )
 }

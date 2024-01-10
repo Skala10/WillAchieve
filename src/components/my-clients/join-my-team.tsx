@@ -2,22 +2,25 @@ import Image from "next/image"
 import { InfiniteLooper } from "./infinite-looper/infinite-looper"
 import { clientsData } from "./clients-data"
 
-export const MyClients = () => {
+export const JoinMyTeam = () => {
   return (
-    <section id="my-clients" className="py-8 md:py-16">
+    <section id="joinMyTeam" className="py-8 md:py-16">
       <div className="max-w-[1440px] mx-auto px-5 text-center flex flex-col">
-        <h2 className="text-5xl md:text-6xl font-semibold mb-6">My clients</h2>
+        <h2 className="text-5xl md:text-6xl font-semibold mb-6">
+          Join Team Will
+        </h2>
         <h4 className="mb-5 text-xl md:text-2xl text-light-blue font-semibold">
           Strive to reach goals you can’t even imagine yet!
         </h4>
         <p className="mb-5 md:mb-10 max-w-[800px] mx-auto">
-          Empowering Transformations: Meet our amazing clients who’ve embraced
-          fitness with WillAchieve! Their dedication is inspiring, showcasing
-          the incredible results achievable through personalized coaching. Join
-          our community and start your journey to a stronger, healthier you.
+          Welcome to Team Will, where fitness meets inspiration! As your gym
+          coach, I’m here to guide you on a personalized journey to a healthier,
+          stronger you. Join our community for expert guidance, customized
+          programs, and a motivational support system. Let’s achieve your
+          fitness goals together – welcome to the team!
         </p>
       </div>
-      <InfiniteLooper direction="right" speed={15}>
+      <InfiniteLooper direction="right" speed={20}>
         {clientsData.map((client) => (
           <div
             key={client.id}

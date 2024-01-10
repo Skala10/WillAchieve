@@ -45,7 +45,7 @@ export const Services = () => {
     <section
       id="services"
       className="max-w-[1440px] mx-auto px-5 py-8 md:py-16">
-      <h2 className="flex justify-center items-center text-5xl md:text-6xl font-semibold mb-10">
+      <h2 className="flex justify-center items-center text-5xl md:text-6xl font-semibold mb-10 text-center ">
         What services do I provide
       </h2>
       <ul className="grid gap-6 grid-cols-1 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2">
