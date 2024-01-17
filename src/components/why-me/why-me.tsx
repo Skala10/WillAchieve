@@ -1,5 +1,5 @@
 import Image from "next/image"
-import whyme from "../../../public/whyme.jpg"
+import whyme from "../../../public/whyme.webp"
 
 export const WhyMe = () => {
   return (

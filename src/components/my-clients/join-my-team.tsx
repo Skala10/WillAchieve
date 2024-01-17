@@ -32,6 +32,7 @@ export const JoinMyTeam = () => {
               width={350}
               height={140}
               sizes="(max-width: 768px) 80vw, 288px"
+              loading="lazy"
             />
           </div>
         ))}
