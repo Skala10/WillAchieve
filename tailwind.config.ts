@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     backgroundImage: {
-      "hero-bg": "url('/main-photo.jpg')"
+      "hero-bg": "url('/main-photo.jpg')",
     },
     screens: {
       lg: "1440px",

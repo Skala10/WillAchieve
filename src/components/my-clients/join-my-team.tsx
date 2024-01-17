@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { InfiniteLooper } from "./infinite-looper/infinite-looper"
-import { clientsData } from "./clients-data"
+import { clientsData } from "./join-my-team-data"
 
 export const JoinMyTeam = () => {
   return (

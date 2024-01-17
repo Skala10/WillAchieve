@@ -15,7 +15,7 @@ export const Calendar = () => {
           and discuss how you will reach those desired goals you have together
         </p>
       </div>
-      <InlineWidget url="https://calendly.com/skalamelitopol10/30min" />
+      <InlineWidget url="https://calendly.com/willpalmertolley401/30min" />
     </section>
   )
 }
