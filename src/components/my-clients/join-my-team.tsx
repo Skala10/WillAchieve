@@ -2,7 +2,9 @@ import Image from "next/image"
 import { InfiniteLooper } from "./infinite-looper/infinite-looper"
 import { clientsData } from "./join-my-team-data"
 
-export const JoinMyTeam = () => {
+interface JoinMyTeamProps {}
+
+export const JoinMyTeam: React.FC<JoinMyTeamProps> = () => {
   return (
     <section id="joinMyTeam" className="py-8 md:py-16">
       <div className="max-w-[1440px] mx-auto px-5 text-center flex flex-col">

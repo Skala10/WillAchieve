@@ -4,7 +4,9 @@ import React, { useEffect, useState } from "react"
 import { Navigation } from "./navigation"
 import { TbAlignRight, TbX } from "react-icons/tb"
 
-export const BurgerMenu = () => {
+interface BurgerMenuProps {}
+
+export const BurgerMenu: React.FC<BurgerMenuProps> = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {

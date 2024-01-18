@@ -3,21 +3,21 @@ import whyme from "../../../public/whyme.webp"
 
 export const WhyMe = () => {
   return (
-    <section
-      id="whywill"
-      className="max-w-[1440px] mx-auto px-5 py-8 md:py-16">
-      <div className="flex justify-center items-center  flex-col-reverse mdlg:flex-row mdlg:justify-around ">
-        <div className="relative inline-block max-w-[600px] h-[720px]">
+    <section id="whywill" className="max-w-[1440px] mx-auto px-5 py-8 md:py-16">
+      <div className="flex justify-center items-center flex-col-reverse mdlg:flex-row mdlg:justify-around ">
+        <div className="relative max-w-[600px] h-[720px]">
           <Image
             src={whyme}
             alt="Image describing why to choose this personal trainer"
-            width={0}
-            height={0}
+            width={600}
+            height={720}
             className="w-full h-full object-cover object-center mdlg:pr-7"
+            loading="lazy"
+            aria-labelledby="whyMeTitle"
           />
         </div>
         <div className="mdlg:max-w-[400px] lg:max-w-[500px]">
-          <h2 className="text-5xl md:text-6xl font-semibold mb-6 text-center  mdlg:text-left">
+          <h2 className="text-5xl md:text-6xl font-semibold mb-6 text-center mdlg:text-left">
             Why me?
           </h2>
           <h4 className="mb-5 text-xl md:text-2xl text-light-blue font-semibold text-center mdlg:text-left ">

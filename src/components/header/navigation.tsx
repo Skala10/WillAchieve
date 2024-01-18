@@ -1,11 +1,7 @@
 import { NavigationLink } from "./navigation-links"
+import React from "react"
 
-export const Navigation = ({
-  links,
-  deviceMd,
-  closeMenu,
-  mb,
-}: {
+interface NavigationProps {
   links: {
     href: string
     text: string
@@ -13,8 +9,15 @@ export const Navigation = ({
     addStyles?: React.CSSProperties
   }[]
   deviceMd?: boolean
-  closeMenu?: any
+  closeMenu?: () => void
   mb?: React.CSSProperties
+}
+
+export const Navigation: React.FC<NavigationProps> = ({
+  links,
+  deviceMd,
+  closeMenu,
+  mb,
 }) => {
   return (
     <nav className="flex items-center gap md:mb-0" style={mb}>
