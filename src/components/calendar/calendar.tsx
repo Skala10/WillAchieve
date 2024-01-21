@@ -3,7 +3,7 @@
 import React from "react"
 import { InlineWidget } from "react-calendly"
 
-export const Calendar = () => {
+const Calendar = () => {
 	const calendlyUrl = "https://calendly.com/willpalmertolley401/30min"
   return (
     <section id="calendar" className="pb-8 md:pb-16 px-5">
@@ -20,3 +20,5 @@ export const Calendar = () => {
     </section>
   )
 }
+
+export default Calendar
