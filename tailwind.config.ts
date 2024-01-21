@@ -8,7 +8,8 @@ const config: Config = {
   ],
   theme: {
     backgroundImage: {
-      "hero-bg": "url('/main-photo.webp')",
+      // "hero-bg": "url('/main-photo.webp')",
+      "hero-bg-small": "url('/main-photo-small.webp')",
     },
     screens: {
       lg: "1440px",

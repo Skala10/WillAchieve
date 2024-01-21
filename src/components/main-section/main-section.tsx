@@ -5,7 +5,7 @@ import { Button } from "../button/button"
 export const MainSection = () => {
   return (
     <section id="main-section" className="pb-8 md:pb-16">
-      <div className="relative w-full h-[80svh] md:h-[90svh] overflow-hidden bg-hero-bg bg-cover bg-[80%_30%] md:bg-[58%_30%]">
+      <div className="relative w-full h-[80svh] md:h-[90svh] overflow-hidden bg-hero-bg-small bg-cover bg-[80%_30%] md:bg-[58%_30%]">
         <div className="relative z-1 flex justify-center md:justify-start px-5 md:px-[5%] items-center h-full max-w-[1440px] mx-auto">
           <div className="text-white max-w-[615px]">
             <h1 className="text-5xl md:text-7xl font-semibold mb-6">

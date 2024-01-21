@@ -20,7 +20,7 @@ export const JoinMyTeam = () => {
           fitness goals together – welcome to the team!
         </p>
       </div>
-      <InfiniteLooper direction="right" speed={20}>
+      <InfiniteLooper direction="right" speed={25}>
         {clientsData.map((client) => (
           <div
             key={client.id}
