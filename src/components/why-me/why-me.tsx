@@ -11,13 +11,15 @@ export const WhyMe = () => {
           <Image
             src={whyme}
             alt="Image describing why to choose this personal trainer"
-            width={0}
-            height={0}
+            width={600}
+            height={720}
             className="w-full h-full object-cover object-center mdlg:pr-7"
+            loading="lazy"
+            aria-labelledby="whyMeTitle"
           />
         </div>
         <div className="mdlg:max-w-[400px] lg:max-w-[500px]">
-          <h2 className="text-5xl md:text-6xl font-semibold mb-6 text-center  mdlg:text-left">
+          <h2 className="text-5xl md:text-6xl font-semibold mb-6 text-center mdlg:text-left">
             Why me?
           </h2>
           <h4 className="mb-5 text-xl md:text-2xl text-light-blue font-semibold text-center mdlg:text-left ">

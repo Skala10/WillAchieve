@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react"
 import { PopupButton } from "react-calendly"
 
-export const CalendarButton = () => {
+const CalendarButton = () => {
   const [isClient, setIsClient] = useState(false)
 
   useEffect(() => {
@@ -23,3 +23,5 @@ export const CalendarButton = () => {
     </div>
   )
 }
+
+export default CalendarButton

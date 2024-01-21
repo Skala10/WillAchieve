@@ -2,7 +2,9 @@ import { Logo } from "./logo"
 import { Navigation } from "./navigation"
 import { BurgerMenu } from "./burgerMenu"
 
-export const Header = () => {
+interface HeaderProps {}
+
+export const Header: React.FC<HeaderProps> = () => {
   const links = [
     { href: "#whywill", text: "Why Will?" },
     { href: "#services", text: "Services" },

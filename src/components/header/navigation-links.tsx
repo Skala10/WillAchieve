@@ -1,17 +1,17 @@
-"use client"
-
-export const NavigationLink = ({
-  href,
-  text,
-  onClick,
-  isButton,
-  addStyles,
-}: {
+interface NavigationLinkProps {
   href: string
   text: string
   onClick?: () => void
   isButton?: boolean
   addStyles?: React.CSSProperties
+}
+
+export const NavigationLink: React.FC<NavigationLinkProps> = ({
+  href,
+  text,
+  onClick,
+  isButton,
+  addStyles,
 }) => {
   const commonClasses =
     "font-bold lg:text-lg md:text-white md:hover:text-[#e8e8e8] transition-colors"
@@ -22,7 +22,7 @@ export const NavigationLink = ({
 
   return (
     <li>
-      <a href={href} onClick={onClick}>
+      <a href={href} onClick={onClick} rel="noopener noreferrer">
         <span className={`${linkClasses}`} style={addStyles}>
           {text}
         </span>

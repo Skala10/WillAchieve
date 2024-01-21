@@ -1,5 +1,3 @@
-"use client"
-
 import { Button } from "../button/button"
 
 export const MainSection = () => {
@@ -12,9 +10,10 @@ export const MainSection = () => {
               Become a new you
             </h1>
             <p className="text-l md:text-xl mb-4">
-              If you’re reading this page, there’s a good chance that you want
-              to stop making excuses and are looking to build the body and
-              lifestyle you want.
+              Welcome to Will Achieve! I’m sure there’s a good reason why you’re
+              here. You’re not satisfied with your current physique. Let’s
+              change that. I want you to reach levels you’ve only imagined.
+              Here, at Will Achieve, dreams will be made reality.
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
               <Button
