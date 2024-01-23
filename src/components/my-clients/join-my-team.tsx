@@ -6,7 +6,7 @@ interface JoinMyTeamProps {}
 
 export const JoinMyTeam: React.FC<JoinMyTeamProps> = () => {
   return (
-    <section id="joinMyTeam" className="py-8 md:py-16">
+    <section id="join-my-team" className="py-8 md:py-16">
       <div className="max-w-[1440px] mx-auto px-5 text-center flex flex-col">
         <h2 className="text-5xl md:text-6xl font-semibold mb-6">
           Join Team Will

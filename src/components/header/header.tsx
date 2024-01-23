@@ -12,9 +12,11 @@ export const Header: React.FC<HeaderProps> = () => {
   ]
 
   return (
-    <header id='header' className="h-[80px] relative z-10 bg-black top-0 w-[100%] flex text-white">
+    <header
+      id="header"
+      className="h-[80px] relative z-10 bg-black top-0 w-[100%] flex text-white">
       <div className="w-full max-w-[1440px] mx-auto px-5 py-5 flex justify-between items-center">
-        <Logo className="uppercase font-bold text-xl" />
+        <Logo color="white" className="w-[3.2rem] md:w-[4.2rem] lg:w-[5.2rem]" />
         <Navigation deviceMd={true} links={links} />
         <BurgerMenu />
       </div>

@@ -34,7 +34,7 @@ export const Footer = () => {
   return (
     <footer className="w-full max-w-[1440px] mx-auto px-5">
       <div className="flex justify-center items-center flex-col py-[50px]">
-        <Logo className="uppercase font-bold text-xl md:text-3xl lg:text-5xl mb-6" />
+        <Logo color="blue" className="w-24 md:w-36 lg:w-44 mb-8" />
         <Navigation links={links} />
         <div className="w-full bg-black h-[1px] mb-8 mt-16 md:mt-15 px-4"></div>
         <p className="pb-6 md:pb-8 text-sm">
